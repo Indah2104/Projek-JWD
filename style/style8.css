@@ -1,0 +1,10 @@
+.p1{
+    /* memberikan jarak antar baris */
+
+    line-height: 40px;
+}
+
+.p2{
+    /* menggeser baris pertama pada paragraf */
+    text-indent: 40px;
+}

@@ -1,0 +1,22 @@
+h2{
+    /* banyak format garis yang dapat digunakan misalnya garis bawah atas dan tengah */
+    text-decoration: underline;
+
+}
+
+a{
+   text-decoration: none;
+   color: black; 
+}
+
+.Facebook:hover, .Instagram:hover{
+    color: palevioletred;
+}
+
+.Facebook:active, .Instagram:active{
+    color:blueviolet;
+}
+
+
+
+

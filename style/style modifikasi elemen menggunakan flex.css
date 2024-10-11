@@ -1,0 +1,79 @@
+
+
+
+.container{
+    width: 60%;
+    background-color: palevioletred;
+    display: flex;
+    margin: auto;
+    /* flex-direction: row; */
+
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* untuk membuat div menjadi fleksibel sesuai ukuran container */
+    flex-wrap: wrap;
+
+    /* untuk mengatur tata letak  */
+
+}
+.container1{
+    width: 600PX;
+    height: 600PX;
+    background-color: rgb(139, 30, 67);
+    display: flex;
+    margin: auto;
+    /* flex-direction: row; */
+
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* untuk membuat div menjadi fleksibel sesuai ukuran container */
+    flex-wrap: wrap;
+
+    /* untuk mengatur tata letak  */
+    justify-content: center;
+
+}
+
+
+.container div{
+    width: 22%;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.container1 div{
+    width: 20%;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    display: flex;
+    flex-shrink: 0;
+    
+}

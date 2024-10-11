@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image:url(../gambar/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+
+    background-attachment: fixed;
+
+}
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: palevioletred;
+    position: fixed;
+}
+
+.box1{
+    width: 30%;
+    height: 300px;
+    background-color:bisque;
+    float: left;
+}
+
+.box2{
+    width: 30%;
+    height: 500px;
+    background-color:bisque;
+    float: right;
+
+}
+
+a{
+    display: block;
+}
+
+input{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.ul1 li{
+    display: inline;
+
+}
+
+.ul2 li{
+    display: inline-block;
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+}

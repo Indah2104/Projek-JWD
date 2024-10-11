@@ -1,0 +1,30 @@
+h2{
+    color:palevioletred;
+}
+p{
+    color: purple;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* CLASS pake titik (.) */
+.judul{
+    color: pink;
+    background-color: black;
+
+}
+.artikel{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* ID pakai pagar (#) */
+#judul1{
+    color: black;
+}
+#artikel1{
+    color: blue;
+    text-align: justify;
+    background-color: orange;
+}

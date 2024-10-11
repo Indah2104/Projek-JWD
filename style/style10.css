@@ -1,0 +1,49 @@
+/* untuk menghapus padding default html */
+
+*{
+    margin: 0px;
+}
+
+.p1{
+    /* setiap teks dalam kotak */
+    background-color:deeppink;
+    color: white;
+    width: 50%;
+    /* ingin memeberikan jarak dengan kotak dalam begian kiri, */
+    padding: 10px;
+    margin: 10px;
+}
+
+.p2{
+    /* setiap teks dalam kotak */
+    background-color:palevioletred;
+    color: white;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10;
+    border: 1px solid black;
+  
+}
+
+.p3{
+    /* setiap teks dalam kotak */
+    background-color:palevioletred;
+    color: white;
+    width: 200px;
+    height: 200px;
+    /* memberikan jarak antar kotak luar pada teks  */
+    margin: 20px;
+  
+}
+
+.p4{
+    /* setiap teks dalam kotak */
+    background-color:palevioletred;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    /* memberikan jarak antar kotak luar pada teks  */
+    margin: auto;
+  
+}
