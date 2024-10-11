@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          //perulangan for
+          for (var i = 0; i<5; i++){
+            document.write(`<p> Perulangan ke - ${i} </p>`);
+        }
+
+        //perulangan while
+        var ulangi = confirm("Apakah anda ingn mengulangi?");
+        var counter = 0;
+        
+
+        while(ulangi){
+            var jawab = confirm("Apkah anda yakin ingin ulang?");
+            counter++;
+            if(jawab==false){
+                ulangi=false;
+            }
+        }
+        document.write(`perulangan sudah dilakukan sebanyak ${counter}</br>`)
+
+        //perulangan reach
+        var nama = ["Indah", "Ridwan", "Ishak", "Ilham"];
+
+        for(i=0; i<nama.length; i++){
+            document.write("</br> Nama yang terdaftar adalah "+nama[i]+"</br>");
+        }
+
+        
+        //perulangan di dalam perulangan
+        for(var i=0;i<10;i++){
+            for(var j=0;j<10;j++){
+                document.write("</br> Perlangan "+i+","+j+"</br>");
+            }
+        }
+    </script>
+</body>
+</html>

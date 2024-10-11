@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("Mula - mula Nilai Skor 100 </br>");
+        var scor = 100;
+        document.write("scor = "+ scor + "</br>");
+        scor += 5;
+        document.write("scor = "+ scor + "</br>");
+        scor -= 2;
+        document.write("scor = "+ scor + "</br>");
+        scor *= 2;
+        document.write("scor = "+ scor + "</br>");
+        scor /= 4;
+        document.write("scor = "+ scor + "</br>");
+        scor **= 2;
+        document.write("scor = "+ scor + "</br>");
+        scor %= 3;
+        document.write("scor = "+ scor + "</br>");
+
+        // perbandingan
+        document.write("<p>Perbandingan</p>");
+        
+        var aku = 21;
+        var kamu = 4;
+
+        var cinta = aku == kamu;
+        document.write(`${aku} == ${kamu} = ${cinta}</br>`);
+        var cinta = aku > kamu;
+        document.write(`${aku} > ${kamu} = ${cinta}</br>`);
+        var cinta = aku < kamu;
+        document.write(`${aku} < ${kamu} = ${cinta}</br>`);
+        var cinta = aku >= kamu;
+        document.write(`${aku} >= ${kamu} = ${cinta}</br>`);
+        var cinta = aku <= kamu;
+        document.write(`${aku} <= ${kamu} = ${cinta}</br>`);
+        var cinta = aku != kamu;
+        document.write(`${aku} != ${kamu} = ${cinta}</br>`);
+
+        // operator
+        document.write("<p>operator OR AND </p>");
+
+        var benar = true;
+        var salah = false;
+        var hasil = benar && salah;
+        //operator AND
+        document.write(`${benar} && ${salah} = ${hasil}</br>`);
+
+        var hasil = benar || salah;
+        //operator OR
+        document.write(`${benar} || ${salah} = ${hasil}</br>`);
+
+        var hasil = ! benar;
+        //operator AND
+        document.write(`!${benar} = ${salah} = ${hasil}</br>`);
+
+
+        document.write("<p>Operator Ternary </p>");
+        //Operator Ternary
+        var pertanyaan = confirm("Apakah Kamu suka Aku");
+        var hasil = pertanyaan ? "Selamat Datang Dihatiku" : "kamu Tidak Boleh Disini";
+        document.write(hasil);
+
+
+        document.write("<p>Logika </p>");
+        // perbandingan if
+        var totalbelanja= prompt("Total Belanja? ", 0);
+        if(totalbelanja > 100000){
+            document.write("<h2>selamat anda dapat hadiah</h2>");
+        }
+        document.write("<p>Terima kasih sudah belanja ditoko kami</p>");
+
+
+
+        document.write("<p>IF ELSE </p>");
+        // perbandingan if
+        var password= prompt("Password:");
+        if(password == "indah"){
+            document.write("<h2>selamat Datang Indah</h2>");
+        }else{
+            document.write("<h2>Password anda salah, silahkan coba lagi</h2>")
+        }
+        document.write("<p>Terima kasih sudah masuk dihati ini</p>");
+
+        document.write("<p>IF ELSE </p>");
+        // perbandingan if
+        var nilai = prompt("Input Nilai");
+        var grade = "";
+
+        if(nilai>=90){
+            grade="A";
+        }else if (nilai>=80){
+            grade ="B";
+        }else if (nilai>=70){
+            grade= "C";
+        }else if (nilai>=60){
+            grade="D";
+        }else{
+            grade="E";
+        }
+
+        document.write(`Grade yg Diperoleh : ${grade}`);
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
